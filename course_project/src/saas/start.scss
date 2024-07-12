@@ -1,0 +1,27 @@
+.start {
+    padding: 114px 0;
+}
+
+.dowmload-title {
+    font-size: 1.875rem;
+    color: #000;
+    font-weight: 500;
+    text-transform: capitalize;
+    margin: 0 auto 30px;
+    width: 685px;
+}
+
+.download-description {
+    font-size: $_description;
+    color: #000;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 0 auto 51px;
+    display: block;
+    text-align: center;
+    width: 423px;
+}
+
+.download-button {
+    @include button;
+}

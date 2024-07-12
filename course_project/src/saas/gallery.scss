@@ -1,0 +1,41 @@
+
+.gallery-wrap {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.gallery-item {
+    max-width: 360px;
+    max-height: 338px;
+    border: 1px solid white;
+    background-size: cover;
+    position: relative;
+}
+
+.gallery-img {
+    width: 100%;
+    height: 100%;
+}
+
+.text-wrap {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-name {
+    font-size: $_title;
+    text-transform: uppercase;
+    color: white;
+    font-weight: 900;
+    display: block;
+}
+
+.text-design {
+    font-size: $_description;
+    text-transform: capitalize;
+    color: white;
+    font-weight: 400;
+    display: block;
+}

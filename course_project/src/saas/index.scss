@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+  }
+
+  @import "../saas/cdn";
+  @import "../saas/var";
+  @import "../saas/mixins";
+  @import "../saas/header.scss";
+  @import "../saas/features.scss";
+  @import "../saas/gallery.scss";
+  @import "../saas/staff.scss";
+  @import "../saas/start.scss";
+  @import "../saas/footer.scss";
+
+
+  html {
+    font-family: "Raleway", sans-serif;
+  }
+
+  .container {
+    max-width: 1170px;
+    padding: 0 15px;
+    margin: auto;
+  }
