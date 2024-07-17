@@ -1,5 +1,5 @@
 .start {
-    padding: 114px 0;
+    padding: 78px 0;
 }
 
 .dowmload-title {
@@ -25,3 +25,58 @@
 .download-button {
     @include button;
 }
+
+@media (max-width: 1024px) {
+    .start {
+        padding: 114px 0;
+    }
+    
+    .dowmload-title {
+        font-size: 24px;
+        margin: 0 auto 25px;
+        width: 555px;
+    }
+    
+    .download-description {
+        font-size: 14px;
+        margin: 0 auto 45px;
+        width: 335px;
+    }
+    
+    .download-button {
+        width: 314px;
+    }
+}
+
+@media (max-width: 920px) {
+    .download-button {
+        width: 254px;
+    }
+}
+
+@media (max-width: 320px) {
+    .start {
+        padding: 45px 0;
+    }
+    .dowmload-title {
+        font-size: 18px;
+        margin: 0 auto 25px;
+        width: 280px;
+        text-align: center;
+    }
+    
+    .download-description {
+        font-size: 13px;
+        margin: 0 auto 20px;
+        width: 280px;
+    }
+    
+    .download-button {
+        width: 280px;
+    }
+    .button-link {
+        font-size: 18px !important;
+    }
+  }
+
+ 

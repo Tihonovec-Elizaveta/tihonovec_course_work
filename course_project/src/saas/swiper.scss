@@ -1,0 +1,161 @@
+.swiper {
+    height: 535px;
+    width: 100%;
+    cursor: pointer;
+  }
+
+.swiper-slide {
+    display: flex;
+    height: 490px;
+}
+
+.slider-img-wrap {
+    width: 50%;
+    height: 100%;
+}
+
+.swiper-img {
+    background-size: contain;
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.swiper-description {
+    width: 50%;
+    background: #5C3249;
+    display: flex;
+    flex-direction: column;
+    padding: 123px;
+    justify-content: center;
+}
+
+.swiper-text {
+    width: 471px;
+    margin-bottom: 50px;
+}
+
+.swiper-text p {
+    font-family: "Cardo";
+    font-style: italic;
+    font-size: 2.25rem;
+    color: #fff;
+    text-transform: capitalize;
+}
+
+.addition {
+    width: 300px;
+    font-size: 0.8125rem;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 700;
+    display: block;
+}
+
+.swiper-button-prev {
+    color: #fff;
+}
+
+.swiper-button-next {
+    color: #fff;
+}
+
+.swiper-pagination-bullet {
+    width: 14px;
+    height: 14px;
+    background: #fff;
+    border: 1px solid #7E5D6F;
+    opacity: 1;
+}
+
+.swiper-pagination-bullet-active {
+    background: #7E5D6F;
+  }
+
+.swiper-pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+
+  @media (max-width: 1024px) {
+    .swiper {
+        height: 365px;
+      }
+    
+    .swiper-slide {
+        height: 332px;
+    }
+    .swiper-description {
+        padding: 110px;
+    }
+    
+    .swiper-text {
+        width: 330px;
+        margin-bottom: 25px;
+    }
+    
+    .swiper-text p {
+        font-size: 24px;
+    }
+    
+    .addition {
+        font-size: 12px;
+        color: #fff;
+    }
+    
+    .swiper-pagination-bullet {
+        width: 9px;
+        height: 9px;
+    }
+    
+    .swiper-pagination {
+        gap: 15px;
+      }
+  }
+
+  @media (max-width: 320px) {
+    .swiper {
+        height: 520px;
+      }
+    
+    .swiper-slide {
+        height: 100%;
+        display: block;
+    }
+    .swiper-description {
+        width: 100%;
+    }
+    
+    .swiper-text {
+        width: 270px;
+        margin-bottom: 25px;
+    }
+    
+    .swiper-text p {
+        font-size: 24px;
+        text-align: center;
+    }
+    
+    .addition {
+        font-size: 12px;
+    }
+    .slider-img-wrap {
+        width: 320px;
+        height: 212px;
+    }
+    .swiper-button-prev {
+        display: none;
+    }
+    
+    .swiper-button-next {
+        display: none;
+    }
+    .swiper-description {
+        display: block;
+        padding: 30px;
+    }
+
+  }

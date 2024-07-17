@@ -14,7 +14,10 @@
   @import "../saas/gallery.scss";
   @import "../saas/staff.scss";
   @import "../saas/start.scss";
+  @import "../saas/swiper.scss";
+  @import "../saas/about.scss";
   @import "../saas/footer.scss";
+
 
 
   html {
@@ -26,3 +29,17 @@
     padding: 0 15px;
     margin: auto;
   }
+
+
+@media (max-width: 1024px) {
+  .container {
+    max-width: 984px;
+  }
+}
+
+@media (max-width: 320px) {
+  .container {
+    max-width: 280px;
+    padding: 0;
+  }
+}

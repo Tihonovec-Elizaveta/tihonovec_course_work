@@ -3,6 +3,7 @@
 }
 
 .staff-wrap {
+    margin: 0 -5px;
     display: flex;
     justify-content: space-between;
 }
@@ -50,7 +51,6 @@ img {
     font-size: $_description;
     font-weight: 400;
     color: #6C7279;
-    margin-bottom: 38px;
 }
 
 .staff-icons-wrap {
@@ -72,3 +72,102 @@ img {
     justify-content: center;
     align-items: center;
 }
+
+@media (max-width: 1024px) {
+    .staff {
+        padding: 78px 0;
+    }
+    .card-wrap {
+        width: 228px;
+    }
+    
+    .card-img {
+        width: 227px;
+        height: 227px;
+        margin-bottom: 25px;
+    }
+
+    .staff-name {
+        font-size: 18px;
+        margin-bottom: 4px;
+    }
+    
+    .staff-job {
+        font-size: 14px;
+        margin-bottom: 22px;
+    }
+    
+    .staff-description {
+        margin-bottom: 39px;
+    }
+    
+    .staff-description-paragraph {
+        font-size: 14px;
+    }
+    
+    .staff-icons-wrap {
+        width: 125px;
+    }
+
+    .icon {
+        width: 33px;
+        height: 33px;
+        font-size: 17px;
+    }
+    
+  }
+
+  @media (max-width: 920px) {
+    .card-wrap {
+        width: 200px;
+    }
+    .card-img {
+        width: 200px;
+        height: 200px;
+        margin-bottom: 30px;
+    }
+  }
+
+  @media (max-width: 320px) {
+    .staff {
+        padding: 35px 0;
+    }
+    .staff-wrap {
+        display: block;
+        margin: auto;
+    }
+    
+    .card-wrap {
+        width: 280px;
+        margin-bottom: 50px;
+    }
+
+    .card-wrap:last-child {
+        margin: 0;
+    }
+    
+    .card-img {
+        width: 280px;
+        height: 280px;
+        margin-bottom: 25px;
+    }
+
+    .staff-name {
+        font-size: 18px;
+        margin-bottom: 5px;
+    }
+    
+    .staff-job {
+        font-size: 14px;
+        margin-bottom: 38px;
+    }
+    
+    .staff-description {
+        margin-bottom: 55px;
+    }
+    
+    .staff-description-paragraph {
+        font-size: 14px;
+    }
+    
+  }
